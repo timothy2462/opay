@@ -7,7 +7,7 @@ export default function Dashboard() {
   return (
     <ScrollView style={tw`flex-1 bg-white`}>
       <View style={tw`p-4`}>
-        <Text style={tw`text-gray-700 font-bold text-lg`}>Hello, There</Text>
+        <Text style={tw`text-gray-700 font-bold text-lg`}>Hello, Timothy</Text>
       </View>
       <BalanceCard />
       <PaymentGrid />
