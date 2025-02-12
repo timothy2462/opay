@@ -15,12 +15,12 @@ export default function DashboardLayout() {
         options={{
           title: "Home",
           tabBarIcon: ({ color, size = 24 }) => (
-            <Ionicons name="home-outline" size={size} color={color} />
+            <Ionicons name="gift-outline" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="rewards"
+        name="rewards/index"
         options={{
           title: "Rewards",
           tabBarIcon: ({ color, size = 24 }) => (
@@ -29,7 +29,7 @@ export default function DashboardLayout() {
         }}
       />
       <Tabs.Screen
-        name="finance"
+        name="finance/index"
         options={{
           title: "Finance",
           tabBarIcon: ({ color, size = 24 }) => (
@@ -38,7 +38,7 @@ export default function DashboardLayout() {
         }}
       />
       <Tabs.Screen
-        name="cards"
+        name="cards/index"
         options={{
           title: "Cards",
           tabBarIcon: ({ color, size = 24 }) => (
